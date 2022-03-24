@@ -338,81 +338,82 @@ print("\nDizilerde Stringler")
 a = "Merhaba, Dünya!"
 print(a[1])
 
-for x in "banana":
+print("")
+for x in "muz":
   print(x)
 
 print("\nString Length")
-a = "Hello, World!"
+a = "Merhaba, Dünya!"
 print(len(a))
 
-print("\nCheck String")
-txt = "The best things in life are free!"
-print("free" in txt)
+print("\Check String")
+txt = "Hayattaki en iyi şeyler ücretsizdir!"
+print("ücretsiz" in txt)
 
-txt = "The best things in life are free!"
-if "free" in txt:
-  print("Yes, 'free' is present.")
+txt = "Hayattaki en iyi şeyler ücretsizdir!"
+if "ücretsiz" in txt:
+  print("Evet, 'ücretsiz' mevcuttur.")
 
 print("\nCheck if NOT")
-txt = "The best things in life are free!"
-print("expensive" not in txt)
+txt = "Hayattaki en iyi şeyler ücretsizdir!"
+print("pahalı" not in txt)
 
-txt = "The best things in life are free!"
-if "expensive" not in txt:
-  print("No, 'expensive' is NOT present.")
+txt = "Hayattaki en iyi şeyler ücretsizdir!"
+if "pahalı" not in txt:
+  print("Hayır, 'pahalı' mevcut değildir.")
 
 
 print("\nPython - Slicing Strings")
-b = "Hello, World!"
+b = "Merhaba, Dünya!"
 print(b[2:5])
 
 print("\nSlice From the Start")
-b = "Hello, World!"
+b = "Merhaba, Dünya!"
 print(b[:5])
 
 print("\nSlice To the End")
-b = "Hello, World!"
+b = "Merhaba, Dünya!"
 print(b[2:])
 
 print("\nNegative Indexing")
-b = "Hello, World!"
+b = "Merhaba, Dünya!"
 print(b[-5:-2])
 
 print("\nPython - Modify Strings")
 print("\nUpper Case")
-a = "Hello, World!"
+a = "Merhaba, Dünya!"
 print(a.upper())
 
 print("\nLower Case")
-a = "Hello, World!"
+a = "Merhaba, Dünya!"
 print(a.lower())
 
 print("\nRemove Whitespace")
-a = " Hello, World! "
+a = " Merhaba, Dünya! "
 print(a.strip()) # returns "Hello, World!"
 
 print("\nReplace String")
-a = "Hello, World!"
+a = "Merhaba, Dünya!"
 print(a.replace("H", "J"))
 
 print("\nSplit String")
-a = "Hello, World!"
+a = "Merhaba, Dünya!"
 print(a.split(",")) # returns ['Hello', ' World!']
 
 print("\nPython - String Concatenation")
 print("\nString Concatenation")
-a = "Hello"
-b = "World"
+a = "Merhaba"
+b = "Dünya"
 c = a + b
 print(c)
 
-a = "Hello"
-b = "World"
+a = "Merhaba"
+b = "Dünya"
 c = a + " " + b
 print(c)
 
 print("\nPython - Format - Strings")
 print("\nString Format")
 age = 36
-txt = "My name is John, I am " + age
+txt = "Benim adım Alperen, ben " + str(age) +" yaşındayım."
 print(txt)
